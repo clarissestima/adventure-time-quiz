@@ -30,3 +30,10 @@ button {
   border: none;
 }
 
+button:hover {
+  background: linear-gradient(
+    90deg, 
+    rgb(0, 163, 49)0%
+    rgba(132, 53, 222, 1) 100%,
+    );
+}
