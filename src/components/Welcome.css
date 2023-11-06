@@ -4,10 +4,14 @@
 }
 
 #welcome h2{
-    margin-bottom: 1rem;
+    margin: 1rem;
 }
 
 
 #welcome img {
     margin-top: 2rem;
+}
+
+#welcome button {
+    margin: 0.5rem;
 }

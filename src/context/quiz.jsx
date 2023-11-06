@@ -1,5 +1,7 @@
 import { createContext, useReducer } from "react";
-import questions from '../data/questions'
+import easyQuestions from "../data/questionsEasy";
+import questions from "../data/questionsNormal";
+import hardQuestions from "../data/questionsHard";
 
 const STAGES = ["Start", "Playing", "End"]
 
@@ -13,6 +15,19 @@ const initialState = {
 
 const quizReducer = (state, action) => {
     switch(action.type) {
+        case "CHANGE_DIFFICULTY":
+            const difficulty = action.payload
+            let newQuestions
+
+            if(difficulty === 0) newQuestions = easyQuestions
+            if(difficulty === 1) newQuestions = questions
+            if(difficulty === 2) newQuestions = hardQuestions
+
+            return {
+                ...state,
+                questions: newQuestions
+            }
+
         case "CHANGE_STATE":
             return {
                 ...state,
