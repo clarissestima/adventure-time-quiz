@@ -1,33 +1,43 @@
 const easyQuestions = [
     {
-      question: "facil",
+      question: "Quais são os nomes dos pais do Finn e do Jake?",
       options: [
-        "JavaScript puro",
-        "Uma biblioteca JavaScript",
-        "Um framework JavaScript",
-        "Um compilador de JavaScript",
+        "Jhonathan e Mildred",
+        "John e Maggie",
+        "Joshua e Margaret",
+        "Josh e Midge",
       ],
-      answer: "JavaScript puro",
+      answer: "Joshua e Margaret",
     },
     {
-      question: "facil",
-      options: ["const", "let", "var", "define"],
-      answer: "const",
+      question: "Quem foi o primeiro dono da casa da árvore?",
+      options: [
+      "Marceline", 
+      "Finn e Jake", 
+      "Hunson Abadeer", 
+      "Rei Gelado"
+    ],
+      answer: "Marceline",
     },
     {
-      question: "facil",
-      options: ["string", "number", "boolean", "float"],
-      answer: "float",
+      question: "Quantos anos tinha Finn na primeira temporada?",
+      options: ["11", "12", "13", "14"],
+      answer: "12",
     },
     {
-      question: "facil",
-      options: ["querySelector", "parseInt", "sort", "reduce"],
-      answer: "querySelector",
+      question: "Qual o nome do primeiro episódio?",
+      options: [
+        "O Enquirídio!", 
+        "Piloto", 
+        "Finn, o Humano e Jake, o cão", 
+        "Pânico na Festa do Pijama"
+      ],
+      answer: "Pânico na Festa do Pijama",
     },
     {
-      question: "facil",
-      options: ["qty", "length", "items", "index"],
-      answer: "length",
+      question: "Qual o nome da namorada do Simon?",
+      options: ["Beth", "Betty", "GOLB", "Beatrice"],
+      answer: "Betty",
     },
   ];
 

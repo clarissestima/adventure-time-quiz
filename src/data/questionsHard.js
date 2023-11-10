@@ -1,33 +1,53 @@
 const hardQuestions = [
     {
-      question: "dificil",
+      question: "Qual o nome da neta do Jake?",
       options: [
-        "JavaScript puro",
-        "Uma biblioteca JavaScript",
-        "Um framework JavaScript",
-        "Um compilador de JavaScript",
+        "Pat",
+        "Viola",
+        "Bronwyn",
+        "Charlie",
       ],
-      answer: "JavaScript puro",
+      answer: "Bronwyn",
     },
     {
-      question: "dificil",
-      options: ["const", "let", "var", "define"],
-      answer: "const",
+      question: "Em que episódio primeiro apareceu GOLB?",
+      options: [
+      "Venha Comigo", 
+      "Você Esqueceu As Boias", 
+      "Templo de Marte", 
+      "Puhoy"
+      ],
+      answer: "Puhoy",
     },
     {
-      question: "dificil",
-      options: ["string", "number", "boolean", "float"],
-      answer: "float",
+      question: "Quem são Fionna e Cake?",
+      options: [
+        "Criações do Rei Gelado", 
+        "Finn e Jake de vidas passadas", 
+        "Criações de Prismo", 
+        "Finn e Jake de uma dimensão alternativa"
+      ],
+      answer: "Criações de Prismo",
     },
     {
-      question: "dificil",
-      options: ["querySelector", "parseInt", "sort", "reduce"],
-      answer: "querySelector",
+      question: "Quais foram as primeiras criações da Princesa Jujuba?",
+      options: [
+        "Tio Gumbald, tia Lolly e primo Chicle", 
+        "LemonGrab", 
+        "Starch e Canelinha", 
+        "Mordomo Menta"
+      ],
+      answer: "Tio Gumbald, tia Lolly e primo Chicle",
     },
     {
-      question: "dificil",
-      options: ["qty", "length", "items", "index"],
-      answer: "length",
+      question: "Quais são os principais elementos da terra de Ooo?",
+      options: [
+        "Terra, Fogo, Ar, Água", 
+        "Fogo e Gelo", 
+        "Caroço e Jujuba", 
+        "Jujuba, Gelo, Fogo, Gosma"
+      ],
+      answer: "Jujuba, Gelo, Fogo, Gosma",
     },
   ];
 

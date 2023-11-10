@@ -1,33 +1,48 @@
 const normalQuestions = [
     {
-      question: "normal",
+      question: "Qual o nome da minhoca que mora no violino do Jake?",
       options: [
-        "JavaScript puro",
-        "Uma biblioteca JavaScript",
-        "Um framework JavaScript",
-        "Um compilador de JavaScript",
+        "Sheldon",
+        "Shelly",
+        "Shelby",
+        "Princesa Jujuba",
       ],
-      answer: "JavaScript puro",
+      answer: "Shelby",
     },
     {
-      question: "normal",
-      options: ["const", "let", "var", "define"],
-      answer: "const",
+      question: "O que a Susana Forte é?",
+      options: ["Humana", "Gente-Peixe", "Ciborgue", "Robô"],
+      answer: "Humana",
     },
     {
-      question: "normal",
-      options: ["string", "number", "boolean", "float"],
-      answer: "float",
+      question: "Complete a música: Desculpe se não trato como deusa...",
+      options: [
+        "Se não sou doce o bastante pra você", 
+        "É isso que você espera de mim", 
+        "La ra da da da", 
+        "Como todos os seus súditos assim"
+      ],
+      answer: "É isso que você espera de mim",
     },
     {
-      question: "normal",
-      options: ["querySelector", "parseInt", "sort", "reduce"],
-      answer: "querySelector",
+      question: "O que o Jake fazia antes de morar com o Finn?",
+      options: [
+        "Era ladrão", 
+        "Morava com a Lady-Íris", 
+        "Era jogador de Guerra das Cartas", 
+        "Morava com o Jermaine"
+      ],
+      answer: "Era ladrão",
     },
     {
-      question: "normal",
-      options: ["qty", "length", "items", "index"],
-      answer: "length",
+      question: "Por que a Marceline é a rainha vampira?",
+      options: [
+        "Porque ela é filha do rei dos vampiros", 
+        "Porque ela casou com o rei dos vampiros", 
+        "Porque ela matou o rei dos vampiros", 
+        "Porque ela é a única vampira que sobrou"
+      ],
+      answer: "Porque ela matou o rei dos vampiros",
     },
   ];
 
